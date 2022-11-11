@@ -34,14 +34,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-.imagen{
-    border-radius: 100%;
-    height: 230px;
-    width: 230px;
-    background-position: center;
-    background-size: cover;
-    background-image: url("https://i.postimg.cc/ZnLvSnw3/instagram1.jpg");
-}
+
 #map {
     height: 400px;
     /* The height is 400 pixels */
@@ -54,4 +47,37 @@ body {
 #imfrom {
     margin-top: 0px;
     font-size: 1rem;
+}
+
+/* SLIDER CSS */
+
+.swiper {
+    width: 100%;
+    height: 250px;
+  }
+
+.img1{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.postimg.cc/q73zdKdt/1668183652727.jpg");
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-image: url("https://i.postimg.cc/SQCC9Jj7/1668184475136.jpg");
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.postimg.cc/hvTLPGQs/1668184591013.jpg");
 }

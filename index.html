@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INFORMACIÓN</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <div class="title">
         <h1>¿Encontraste a éste perro?</h1>
@@ -22,58 +25,58 @@
     <table>
         <h2>INFORMACIÓN</h2>
         <tr>
-          <td><strong>Nombre</strong></td>
-          <td>: Chiqui - Chiquito</td>
-          <span>
+            <td><strong>Nombre</strong></td>
+            <td>: Chiqui - Chiquito</td>
+            <span>
         </tr>
         <tr>
-          <td><strong>Edad</strong></td>
-          <td>: 4 Años</td>
-          <span>
+            <td><strong>Edad</strong></td>
+            <td>: 4 Años</td>
+            <span>
         </tr>
         <tr>
             <td><strong>Hogar</strong></td>
             <td>: Calle 35 N° 857</td>
             <span>
-          </tr>
-        <tr>
-          <td><strong>Dueño/a 1</strong></td> 
-          <td>: Alejandra Noemi Allais</td>
-          <span>
         </tr>
         <tr>
-            <td><strong>Dueño/a 2</strong></td> 
+            <td><strong>Dueño/a 1</strong></td>
+            <td>: Alejandra Noemi Allais</td>
+            <span>
+        </tr>
+        <tr>
+            <td><strong>Dueño/a 2</strong></td>
             <td>: Sergio Daniel Cardoso</td>
             <span>
-          </tr>
+        </tr>
         <tr>
             <td><strong>Teléfono 1</strong></td>
             <td><a href="tel:2302592053">: 2302 15592053</a></td>
-            <tr>
-                <td><strong>Teléfono 2</strong></td>
-                <td><a href="tel:2302447477">: 2302 15447477</a></td>
-            </tr>
-            <tr>
-                <td><strong>Teléfono 3</strong></td>
-                <td><a href="tel:2302354543">: 2302 15354543</a></td>
-            </tr>
+        <tr>
+            <td><strong>Teléfono 2</strong></td>
+            <td><a href="tel:2302447477">: 2302 15447477</a></td>
         </tr>
-      </table>
-      <br>
-      <h2 id="ub">Llévame a ésta ubicación!</h2>
-      <p id="imfrom">Soy de General Pico - La Pampa</p>
-      <div id="map"></div>
+        <tr>
+            <td><strong>Teléfono 3</strong></td>
+            <td><a href="tel:2302354543">: 2302 15354543</a></td>
+        </tr>
+        </tr>
+    </table>
+    <br>
+    <h2 id="ub">Llévame a ésta ubicación!</h2>
+    <p id="imfrom">Soy de General Pico - La Pampa</p>
+    <div id="map"></div>
 
-      <!-- 
+    <!-- 
      The `defer` attribute causes the callback to execute after the full HTML
      document has been parsed. For non-blocking uses, avoiding race conditions,
      and consistent behavior across browsers, consider loading using Promises
      with https://www.npmjs.com/package/@googlemaps/js-api-loader.
     -->
     <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw0R8c559GEReyaEVZzT57mk7z8nVj4Q8&callback=initMap&v=weekly"
-    defer
-  ></script>
-  <script src="script.js"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw0R8c559GEReyaEVZzT57mk7z8nVj4Q8&callback=initMap&v=weekly"
+        defer></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

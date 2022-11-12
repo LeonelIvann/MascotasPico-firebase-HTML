@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    width: 100vw;
+    height: fit-content;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.title {
+    margin-top: 2rem;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title h1 {
+    width: max-content;
+    height: fit-content;
+    font-size: 1.2rem;
+}
+
+.container-img{
+    padding-top: 0.5rem;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100vw;
+    /* The width is the width of the web page */
+  }
+#ub {
+    margin-bottom: 0px;
+}
+#imfrom {
+    margin-top: 0px;
+    font-size: 1rem;
+}
+
+/* SLIDER CSS */
+
+.swiper {
+    width: 100%;
+    height: 250px;
+  }
+
+.img1{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.postimg.cc/J4DHNjJG/Imagen-de-Whats-App-2022-11-12-a-las-17-37-05.jpg");
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-image: url("https://i.postimg.cc/76rrR8tF/1668285349910.jpg");
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.postimg.cc/nzWBx2Bf/Imagen-de-Whats-App-2022-11-12-a-las-17-58-35.jpg");
+}
